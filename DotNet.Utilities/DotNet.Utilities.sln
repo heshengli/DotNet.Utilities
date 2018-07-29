@@ -3,15 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Security", "Security", "{336FD905-D074-4750-81FB-232D6478959D}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nop", "Nop", "{4DE461CC-4F81-45F0-9C7B-A8AEB6D87D94}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.Utilities.Security", "DotNet.Utilities.Security\DotNet.Utilities.Security.csproj", "{6601A3D5-2F47-48D9-9AE1-C65540D939D3}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6601A3D5-2F47-48D9-9AE1-C65540D939D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6601A3D5-2F47-48D9-9AE1-C65540D939D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6601A3D5-2F47-48D9-9AE1-C65540D939D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6601A3D5-2F47-48D9-9AE1-C65540D939D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{4DE461CC-4F81-45F0-9C7B-A8AEB6D87D94} = {336FD905-D074-4750-81FB-232D6478959D}
 	EndGlobalSection
 EndGlobal

@@ -40,6 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\Des.cs" />
+    <Compile Include="Common\Md5.cs" />
+    <Compile Include="Common\SecurityBase.cs" />
     <Compile Include="Nop\EncryptionService.cs" />
     <Compile Include="Nop\IEncryptionService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
