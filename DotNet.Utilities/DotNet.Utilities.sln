@@ -6,10 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Security", "Security", "{336FD905-D074-4750-81FB-232D6478959D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nop", "Nop", "{4DE461CC-4F81-45F0-9C7B-A8AEB6D87D94}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\nopCommerce\src\Libraries\Nop.Services\Security\EncryptionService.cs = ..\..\nopCommerce\src\Libraries\Nop.Services\Security\EncryptionService.cs
-		..\..\nopCommerce\src\Libraries\Nop.Services\Security\IEncryptionService.cs = ..\..\nopCommerce\src\Libraries\Nop.Services\Security\IEncryptionService.cs
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
